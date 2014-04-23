@@ -9,5 +9,20 @@ a {
 #box-container-1 {
 	width: 100%;
 	height: 100%;
+	background: #F0E6DD;
+	color:black;
+}
+
+#box-container-2 {
+	width: 100%;
+	height: 100%;
 	background: #C5CDCF;
+	color:white;
+}
+
+#box-container-3 {
+	width: 100%;
+	height: 100%;
+	background: #F6F7E7;
+	color:black;
 }
