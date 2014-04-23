@@ -1,51 +1,87 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <% include partials/head %>
+    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="/stylesheets/syle.css" rel="stylesheet">
+
   </head>
   <body>
     <h1><%= title %></h1>
     <p>Welcome to UC Berkeley Panhellenic Council</p>
 
-    <!-- Body - Windows -->
-  <div class='window' id='window-about'>
-    <div class='window-content' id='about-content'>
+<div align="center">
+<div class="row">
+  <div class="col-md-12">
+    
+Lorem ipsum dolor sit amet, cu est dolore comprehensam vituperatoribus, nam ne error invidunt posidonium. Te mel eripuit bonorum, cibo consetetur vel at, usu no labore debitis. Purto dictas posidonium vix an. Et sed deleniti indoctum. Laudem delenit torquatos sea id.
+Mel sumo delenit delicatissimi ex, usu facilisi quaestio no. In nisl dicat eos, eum ex simul mollis, nec eu graeco aliquip maiestatis. Molestie philosophia eu has. No pro tempor laoreet, ei vix lorem constituto efficiantur.    
+<div class="row">
 
-      <% include partials/about %>
+
+      <div class="col-md-4">
+        <div id="box-container-1">
+
+        <h1>About</h1>
+        Lorem ipsum dolor sit amet, cu est dolore comprehensam vituperatoribus, nam ne error invidunt posidonium. Te mel eripuit bonorum, cibo consetetur vel at, usu no labore debitis. Purto dictas posidonium vix an. Et sed deleniti indoctum. Laudem delenit torquatos sea id.
+        Mel sumo delenit delicatissimi ex, usu facilisi quaestio no. In nisl dicat eos, eum ex simul mollis, nec eu graeco aliquip maiestatis. Molestie philosophia eu has. No pro tempor laoreet, ei vix lorem constituto efficiantur.
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        
+        <a style="text-decoration: none" href="modal-target.html" data-target="#myModal" role="button" data-toggle="modal">
+        <div id="box-container-2">
+
+        <h1>About</h1>
+        Lorem ipsum dolor sit amet, cu est dolore comprehensam vituperatoribus, nam ne error invidunt posidonium. Te mel eripuit bonorum, cibo consetetur vel at, usu no labore debitis. Purto dictas posidonium vix an. Et sed deleniti indoctum. Laudem delenit torquatos sea id.
+        Mel sumo delenit delicatissimi ex, usu facilisi quaestio no. In nisl dicat eos, eum ex simul mollis, nec eu graeco aliquip maiestatis. Molestie philosophia eu has. No pro tempor laoreet, ei vix lorem constituto efficiantur.
+        </div>
+      </a>
+
+      </div>
+
+      <div class="col-md-4">
+        <div id="box-container-3">
+
+        <h1>About</h1>
+        Lorem ipsum dolor sit amet, cu est dolore comprehensam vituperatoribus, nam ne error invidunt posidonium. Te mel eripuit bonorum, cibo consetetur vel at, usu no labore debitis. Purto dictas posidonium vix an. Et sed deleniti indoctum. Laudem delenit torquatos sea id.
+        Mel sumo delenit delicatissimi ex, usu facilisi quaestio no. In nisl dicat eos, eum ex simul mollis, nec eu graeco aliquip maiestatis. Molestie philosophia eu has. No pro tempor laoreet, ei vix lorem constituto efficiantur.
+        </div>
+      </div>
+
+      
 
     </div>
+  </div>
+</div>
+</div>
 
-	</div>
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
 
 
-
-	<div class='window' id='window-resources'>
-    <div class='window-content' id='resources-content'>
-
-     
-    <% include partials/about %>
-
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
     </div>
+  </div>
 
-
-	</div>
-
-
-
-	<div class='window' id='window-recruitment'>
-    <div class='window-content' id='recruitment-content'>
-
-     
-    <% include partials/recruitment %>
-
-    </div>
-
-	</div>
-
-
-    <!-- Footer -->
-    <div id='footer'>
-	
-	</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/javascripts/bootstrap.min.js"></script>
   </body>
 </html>
