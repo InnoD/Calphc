@@ -35,7 +35,7 @@ Mel sumo delenit delicatissimi ex, usu facilisi quaestio no. In nisl dicat eos, 
         <a style="text-decoration: none" href="modal-target.html" data-target="#myModal" role="button" data-toggle="modal">
         <div id="box-container-2">
 
-        <h1>About</h1>
+        <h1>Members Resources</h1>
         Lorem ipsum dolor sit amet, cu est dolore comprehensam vituperatoribus, nam ne error invidunt posidonium. Te mel eripuit bonorum, cibo consetetur vel at, usu no labore debitis. Purto dictas posidonium vix an. Et sed deleniti indoctum. Laudem delenit torquatos sea id.
         Mel sumo delenit delicatissimi ex, usu facilisi quaestio no. In nisl dicat eos, eum ex simul mollis, nec eu graeco aliquip maiestatis. Molestie philosophia eu has. No pro tempor laoreet, ei vix lorem constituto efficiantur.
         </div>
@@ -46,7 +46,7 @@ Mel sumo delenit delicatissimi ex, usu facilisi quaestio no. In nisl dicat eos, 
       <div class="col-md-4">
         <div id="box-container-3">
 
-        <h1>About</h1>
+        <h1>Recruitment</h1>
         Lorem ipsum dolor sit amet, cu est dolore comprehensam vituperatoribus, nam ne error invidunt posidonium. Te mel eripuit bonorum, cibo consetetur vel at, usu no labore debitis. Purto dictas posidonium vix an. Et sed deleniti indoctum. Laudem delenit torquatos sea id.
         Mel sumo delenit delicatissimi ex, usu facilisi quaestio no. In nisl dicat eos, eum ex simul mollis, nec eu graeco aliquip maiestatis. Molestie philosophia eu has. No pro tempor laoreet, ei vix lorem constituto efficiantur.
         </div>
@@ -59,12 +59,9 @@ Mel sumo delenit delicatissimi ex, usu facilisi quaestio no. In nisl dicat eos, 
 </div>
 </div>
 
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
-</button>
 
 
-<!-- Modal -->
+<!-- About Modal-->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -73,16 +70,48 @@ Mel sumo delenit delicatissimi ex, usu facilisi quaestio no. In nisl dicat eos, 
         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
       </div>
       <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <% include partials/about.ejs %>
       </div>
     </div>
   </div>
+</div>
+
+<!-- Members Resources Modal-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Members Resources</h4>
+      </div>
+      <div class="modal-body">
+        <% include partials/members-resources.ejs %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Recruitment Modal -->
+<!-- About Model-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Recruitment</h4>
+      </div>
+      <div class="modal-body">
+        <% include partials/recruitment.ejs %>
+      </div>
+    </div>
+  </div>
+</div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="/javascripts/bootstrap.min.js"></script>
+
+<div class='footer'>
+  <% include partials/footer.ejs %>
+</div>
   </body>
 </html>
