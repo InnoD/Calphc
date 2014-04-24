@@ -10,21 +10,21 @@ a {
 	width: 100%;
 	height: 100%;
 	background: #F0E6DD;
-	color:black;
+	color:#F6C0C3;
 }
 
 #box-container-2 {
 	width: 100%;
 	height: 100%;
 	background: #C5CDCF;
-	color:white;
+	color:#F6F7E8;
 }
 
 #box-container-3 {
 	width: 100%;
 	height: 100%;
 	background: #F6F7E7;
-	color:black;
+	color:#2F3538;
 }
 div.modal-dialog {
     width: 95%;
