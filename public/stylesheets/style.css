@@ -26,3 +26,12 @@ a {
 	background: #F6F7E7;
 	color:black;
 }
+div.modal-dialog {
+    width: 95%;
+    height: 95%;
+}
+div.modal-content {
+    width: 100%;
+    height: 100%;
+}
+
